@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "193755297231",
+    "project_id": "stream-chat-972be",
+    "storage_bucket": "stream-chat-972be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193755297231:android:b36ccdcd9d67d1aef40eba",
+        "android_client_info": {
+          "package_name": "com.taghavi.streamchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY-NyjATcWVxtjxPO_H4WG-CpyP7rX2a0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
