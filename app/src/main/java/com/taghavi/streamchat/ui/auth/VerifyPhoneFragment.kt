@@ -25,6 +25,7 @@ class VerifyPhoneFragment : Fragment(R.layout.fragment_verify_phone) {
         super.onViewCreated(view, savedInstanceState)
 
         binding = FragmentVerifyPhoneBinding.bind(view)
+        binding.buttonNext.isEnabled = false
         auth = FirebaseAuth.getInstance()
 
         val phone = arguments?.getString(KEY_PHONE) ?: return

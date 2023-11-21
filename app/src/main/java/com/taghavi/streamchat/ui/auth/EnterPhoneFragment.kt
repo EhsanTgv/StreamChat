@@ -18,10 +18,12 @@ class EnterPhoneFragment : Fragment(R.layout.fragment_enter_phone) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentEnterPhoneBinding.bind(view)
 
+        binding.buttonNext.isEnabled = false
+
         val adapter = ArrayAdapter(
             requireContext(),
             android.R.layout.simple_spinner_item,
-            requireContext().getCountries(),
+            requireContext().getCountries().map { it.countryCode },
         )
 
         binding.spinnerCountries.adapter = adapter
